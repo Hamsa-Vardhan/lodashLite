@@ -1,6 +1,6 @@
 # Lodash Lite --  Small Package with mostly needed functions
 
-##### *Installation* -- `npm i lodash--lite`
+##### *Installation* -- `npm i lodashlite`
 
 ## Functions list
  -	[flattenDepth](#flattenDepth) 
@@ -153,7 +153,7 @@ _Ever Wanted to find the repition of an element in list_
 ```
     countsInList(lst)
     args : 
-        lst : list in which element counts has to be calculated
+        lst -- list in which element counts has to be calculated
 
     countsInList([1,2,3,4,4,3,4,2,3,4]) : 
     // => { '1': 1, '2': 2, '3': 3, '4': 4 }
@@ -171,8 +171,8 @@ _This can be used to connect multiple functions_
 ```
     flow(lst,funcs)
     args :
-        lst : list of arguments that are to be passed as parameters for first function
-        funcs : functions that are to be connected
+        lst -- list of arguments that are to be passed as parameters for first function
+        funcs -- functions that are to be connected
 
 
     let add = (a,b) => a+b
@@ -192,7 +192,7 @@ _Gives list of factors for a given number_
 ```
     factors(num)
     args : 
-        num : number for which factors has to be extracted
+        num -- number for which factors has to be extracted
 
     factors(12)
     // => [ 1, 2, 3, 4, 6, 12 ]
@@ -208,7 +208,7 @@ _Find whether a given number is prime or not_
 ```
     isPrime(num)
     args : 
-        num : number that has to be checked
+        num -- number that has to be checked
 
     isPrime(20)
     // => false
