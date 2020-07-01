@@ -1,6 +1,6 @@
 # Lodash Lite --  Small Package with mostly needed functions
 
- *Installation* -- `npm i lodashLite`
+##### *Installation* -- `npm i lodashLite`
 
 ## functions list
  -	[flattenDepth](#flattenDepth) 
@@ -16,10 +16,13 @@
  -	[isPrime](#isPrime) 
  -	[timeTaken](#timeTaken)
 
-### function -- flattenDepth {#flattenDepth}
+### function
+
+#### flattenDepth {#flattenDepth}
 
 _Did you ever struggle to flatten a list of lists ?_
 now we have an option
+
 ``` 
     flattenDepth(arr,d)
     arr -- list of lists
