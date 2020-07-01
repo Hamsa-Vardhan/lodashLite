@@ -14,9 +14,10 @@ function createAlpha(a, b) {
 	}
 }
 
-function range(a = 0, b) {
+function range(a, b) {
 	let out = [];
-	for (let i = a; i < b; i++) out.push(i);
+	if (a < b) for (let i = a; i < b; i++) out.push(i);
+	else for (let i = a; i > b; i--) out.push(i);
 	return out;
 }
 
@@ -55,14 +56,9 @@ function countsInList(lst) {
 }
 
 function flow(fun, ...functions) {
-	let out = fun;
+	let out = functions[0](...fun);
+	functions.splice(0);
 	for (let i of functions) out = i(fun);
-	return out;
-}
-
-function flipObj(obj) {
-	let out = {};
-	for (let i in obj) out[obj[i]] = i;
 	return out;
 }
 
@@ -95,9 +91,7 @@ module.exports = {
 	timeTaken,
 	range,
 	countsInList,
-	flipObj,
 	flow,
 	factors,
-	isPrime,
-	timeTaken
+	isPrime
 };
