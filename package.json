@@ -1,6 +1,6 @@
 {
 	"name": "lodashlite",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "This contains few selected and most used lodash functions.",
 	"main": "lodash--lite.js",
 	"scripts": {
