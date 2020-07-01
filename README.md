@@ -18,14 +18,15 @@
 
 ### function
 
-#### flattenDepth {#flattenDepth}
+#### flattenDepth
 
 _Did you ever struggle to flatten a list of lists ?_
 now we have an option
-
+*usage* :
 ``` 
     flattenDepth(arr,d)
-    arr -- list of lists
-    d -- depth  and by default is 1
-    d ? is optional
+    *args* :
+        arr -- list of lists
+        d -- depth  and by default is 1
+        d ? is optional
 ```
