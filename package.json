@@ -1,0 +1,14 @@
+{
+	"name": "lodashlite",
+	"version": "1.0.0",
+	"description": "This contains few selected and most used lodash functions.",
+	"main": "lodashLite.js",
+	"scripts": {
+		"test": "node lodashLite.js"
+	},
+	"keywords": [
+		"lodash"
+	],
+	"author": "Hamsa Vardhan",
+	"license": "ISC"
+}
